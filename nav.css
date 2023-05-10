@@ -1,0 +1,115 @@
+
+
+
+
+.nav{position: absolute;
+margin-left: 10px;} 
+.nav_img {
+    height: 40px;
+}
+
+.nav_drop {
+position: absolute;
+    display: none;
+}
+
+.nav_flex {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(108, 193, 143);
+    border-radius: 0 30px 30px 0;
+}
+
+.nav_a {
+    /* граница и цвет заливки */
+    background-color: rgb(108, 193, 143);
+    padding: 0.6rem;
+    border-radius: 20px;
+    margin: 0 0.5rem;
+    /* текст */
+    text-decoration: none;
+    color: rgb(239, 239, 239);
+    text-shadow: 0 0 5px #393939;
+}
+
+.nav:hover .nav_drop {
+    display: inline-block;
+}
+
+.nav_a:hover {
+    background-color: rgb(247, 197, 198);
+}
+
+
+
+
+
+
+/* выпадание Обо мне */
+.nav-2{position: relative;}
+.nav_drop-2 {
+    position: absolute;
+    display: none;
+}
+
+.nav_flex-2 {
+    /* чтобы кнопки стояли в колонну */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* настойка выпадающей подложки, цвет размер и месторасположение*/
+    height: 90px;
+    width: 93px;
+    background-color: rgb(108, 193, 143);
+    border-radius: 0 0px 30px 30px;
+    margin: 0px 0px 0 4px;
+}
+
+.nav_wrap-for-a-2{   
+     /* граница и цвет заливки */
+    background-color: rgb(108, 193, 143);
+    border-radius: 20px 20px 0 0;
+    margin: 0 0.5rem;
+    border: 10px solid rgb(108, 193, 143, 0);
+    /* текст */
+    text-decoration: none;
+    color: rgb(239, 239, 239);
+    text-shadow: 0 0 5px #393939;
+    width: 64px;}
+.nav_a-2 {
+    /* только текст */
+    text-decoration: none;
+    color: rgb(239, 239, 239);
+    text-shadow: 0 0 5px #393939;
+    
+}
+
+.nav_a-3 {
+
+    /* граница и цвет заливки */
+    background-color: rgb(108, 193, 143);
+    padding: 0.6rem;
+    border-radius: 20px;
+    margin: 1 0.5rem;
+    /* текст */
+    text-decoration: none;
+    color: rgb(239, 239, 239);
+    text-shadow: 0 0 5px #393939;
+}
+
+.nav-2:hover .nav_drop-2 {
+    display: inline-block;
+}
+
+.nav_wrap-for-a-2:hover {
+    background-color: rgb(247, 197, 198);
+}
+
+.nav_a-3:hover {
+    background-color: rgb(247, 197, 198);
+}
+
+.nav_drop-2:hover .nav_drop-2 {
+    display: inline-block;
+}
