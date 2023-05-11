@@ -6,20 +6,13 @@
 /* белый фон */
 
 
-.mainpage_background-white {
-    position: relative;
-    background-color: white;
-    width: 360px;
-height: 480;
-    margin: 0 auto;
-
-}
+.mainpage_background-white {height: 1;}
 
 .mainpage_photo-wrap {
     text-align: left;
 }
 
-.mainpage_photo {
+.mainpage_photo {position: relative;
     width: 360px;
     
 }
@@ -68,7 +61,7 @@ line-height: 1.2;}
     height: 10rem;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    margin-bottom: 250px;
+    margin-bottom: 120px;
 }
 
 .mainpage_button {

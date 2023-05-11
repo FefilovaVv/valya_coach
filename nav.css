@@ -3,7 +3,8 @@
 
 
 .nav{position: absolute;
-margin-left: 10px;} 
+margin-left: 10px;
+z-index: 5;} 
 .nav_img {
     height: 40px;
 }
@@ -51,6 +52,7 @@ position: absolute;
 .nav_drop-2 {
     position: absolute;
     display: none;
+
 }
 
 .nav_flex-2 {
