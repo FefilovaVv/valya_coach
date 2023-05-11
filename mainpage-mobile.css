@@ -9,20 +9,18 @@
 .mainpage_background-white {
     position: relative;
     background-color: white;
-    width: 100vw;
-
+    width: 360px;
+height: 480;
     margin: 0 auto;
-    min-width: 450px;
-    min-height: 700px;
-    max-height: 600px;
+
 }
 
 .mainpage_photo-wrap {
-    text-align: right;
+    text-align: left;
 }
 
 .mainpage_photo {
-    width: 100vw;
+    width: 360px;
     
 }
 
