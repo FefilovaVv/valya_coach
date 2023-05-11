@@ -14,7 +14,7 @@
     margin: 0 auto;
     min-width: 450px;
     min-height: 700px;
-    max-height: 800px;
+    max-height: 600px;
 }
 
 .mainpage_photo-wrap {
@@ -70,17 +70,17 @@ line-height: 1.2;}
     height: 10rem;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    margin-bottom: 200px;
+    margin-bottom: 250px;
 }
 
 .mainpage_button {
-    width: 2rem;
-    height: 2rem;
+    width: 4rem;
+    height: 4rem;
     background-color: rgb(110, 184, 141);
     border-radius: 90px;
     border: none;
 }
-.mainpage_span{font-size: 1.6rem;
+.mainpage_span{font-size: 3.2rem;
 color: rgb(247, 197, 198);
 font-weight: 900;
 text-shadow: 0 0 2px black;
@@ -91,13 +91,13 @@ text-shadow: 0 0 2px black;
 }
 
 .a {
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 2;
 }
 
 .b {
     grid-row: 3;
-    grid-column: 5;
+    grid-column: 7;
 }
 
 .c {
@@ -112,7 +112,7 @@ text-shadow: 0 0 2px black;
 
 .e {
     grid-row: 2;
-    grid-column: 10;
+    grid-column: 12;
 }
 
 /* выпадающее из кругляшков */
