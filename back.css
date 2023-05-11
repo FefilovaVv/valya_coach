@@ -1,0 +1,16 @@
+* {
+    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+}
+
+.back{position: fixed;
+    z-index: 1;
+    font-size: 1.9rem;
+margin: 10px;
+background-color: rgb(110, 184, 141);
+border-radius: 10px;
+border: 1px solid black;}
+
+.back_a{text-decoration: none;
+    color: black;}
+
+    .back:hover {background-color: rgb(247, 197, 198);}

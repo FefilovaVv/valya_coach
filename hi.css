@@ -64,7 +64,7 @@ margin: 0;
 }
 .hi_p-a{transform: rotate(-30deg);
     right: -2.5%;
-    bottom: 220px;}
+    bottom: 230px;}
 .hi_p-b{z-index: 1;
     transform: rotate(12deg);
     transform-origin: bottom left;
@@ -83,6 +83,15 @@ border-radius: 15px;
 padding: 2px 5px;
 text-decoration: none;}
 .hi_a:hover {background-color: rgb(247, 197, 198);} 
+
+.hi_span{font-size: 1rem;
+    color: rgb(247, 197, 198);
+    font-weight: 900;
+    /* text-shadow: 0 0 2px black; */
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 0 6px;
+    }
 
 
 
