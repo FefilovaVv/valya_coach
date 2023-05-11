@@ -5,8 +5,8 @@
     width: 80vw;
     margin: 0 auto;
     min-width: 450px;
-    min-height: 300px;
-    max-height: 375px;
+    min-height: 600px;
+    max-height: 850px;
 }
 
 /* центровка через флекс */
@@ -45,18 +45,19 @@
 /* текст */
 .hi_p {
     display: inline-block;
-    width: 400px;
+    width: 200px;
     margin-left: 20px;
-    font-size: 1.6rem;
-    margin-top: 90px;
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
 
 /* 4 строчки после и стиль ссылок */
-.hi_wrap-p{position: relative;}
+.hi_wrap-p{position: relative;
+ащ}
 .hi_p2{position: absolute;
     display: inline-block;
     font-size: 1rem;
-    width: 400px;
+    width: 200px;
 background-color:  rgb(110, 184, 141);
 padding: 10px;
 border-radius: 30px;
