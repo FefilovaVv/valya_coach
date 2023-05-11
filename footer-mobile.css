@@ -1,0 +1,37 @@
+.footer_background-grey {
+    position: relative;
+    background-color: rgb(136, 136, 136);
+    width: 80vw;
+    margin: 0 auto;
+    min-width: 450px;
+    min-height: 50px;
+    max-height: 75px;
+    border-top: 4px double rgb(77, 76, 76);
+}
+
+.footer_wrap-a {
+    position: absolute;
+    top: 30%;
+    right: 30px;
+}
+
+.footer_img-tg {
+    width: 40px;
+}
+
+.footer_img-inst {
+    width: 45px;
+}
+
+.footer_img-wa {
+    width: 40px;
+}
+
+.footer_a {
+    margin: 0 10px;
+}
+
+.footer_p {
+    color: white;
+    margin: 40px 60px;
+}
