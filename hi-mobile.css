@@ -3,7 +3,7 @@
     position: relative;
     background-color: rgb(234, 234, 234);
     width: 100dvw;
-    min-height: 600px;
+    min-height: 700px;
   
 }
 
@@ -14,23 +14,23 @@
     align-items: center;
     justify-content: center;
     height: 280px;
-    padding-top: 20px;
+    padding-top: 2dwv;
 }
 
 /* двигающаяся при наведении котейка */
 .hi_img-wrap {
     position: relative;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .hi_cutehi-gif {
-    width: 200px;
+    width: 40dvw;
 }
 
 .hi_cutehi-webp {
     display: none;
     position: absolute;
-    width: 200px;
+    width: 40dvw;
     left: 0;
     top: 0;
     background-color: rgb(234, 234, 234);
@@ -43,10 +43,10 @@
 /* текст */
 .hi_p {
     display: inline-block;
-    width: 200px;
-    margin-left: 20px;
+    width: 50dvw;
+    margin: 30px 0 0 10px;
     font-size: 1.2rem;
-    margin-top: 10px;
+    
 }
 
 /* 4 строчки после и стиль ссылок */
@@ -58,7 +58,7 @@
     position: absolute;
     display: inline-block;
     font-size: 1rem;
-    width: 200px;
+    width: 180px;
     background-color: rgb(110, 184, 141);
     padding: 10px;
     border-radius: 30px;
@@ -67,21 +67,21 @@
 
 .hi_p-a {
     transform: rotate(-30deg);
-    right: -2.5%;
-    bottom: 230px;
+    right: -0.5%;
+    bottom: 43dvh;
 }
 
 .hi_p-b {
     z-index: 1;
     transform: rotate(12deg);
     transform-origin: bottom left;
-    right: -0.2%;
-    bottom: 82px;
+    right: 2%;
+    bottom: 20.5dvh;
 }
 
 .hi_p-c {
     transform: rotate(-5deg);
-    bottom: 74px;
+    bottom: 19dvh;
 }
 
 .hi_p-d {
