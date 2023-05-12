@@ -8,7 +8,7 @@
 
 .mainpage_background-white {
   position: relative;
-  background-color: rgb(67, 68, 74);
+  background-color:  rgb(136, 136, 136);
   width: 100dvw;
   height: 100dvh;
 
@@ -25,9 +25,9 @@
 
 .mainpage_photo-gradient {position: absolute;
   width: 100dvw;
-  height: 23dvh;
-  background: linear-gradient(transparent 1dvh,  rgb(67, 68, 74));
-  bottom: 28dvh;
+  height: 45dvh;
+  background: linear-gradient(transparent 1dvh,   rgb(136, 136, 136));
+  bottom: 29dvh;
 }
 
 /* h1 в центре и двигающаяся по этому центру немно + span*/
@@ -89,7 +89,7 @@
   height: 33dvh;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  padding-bottom: 3dvh;
+  padding-bottom: 10dvh;
 }
 
 .mainpage_button {
@@ -112,7 +112,7 @@
 }
 
 .a {
-  grid-row: 2;
+  grid-row: 1;
   grid-column: 2;
 }
 
