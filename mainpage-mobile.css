@@ -8,8 +8,9 @@
 
 .mainpage_background-white {
   position: relative;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(67, 68, 74);
   width: 100dvw;
+  height: 100dvh;
 
 }
 
@@ -22,14 +23,21 @@
 
 }
 
+.mainpage_photo-gradient {position: absolute;
+  width: 100dvw;
+  height: 23dvh;
+  background: linear-gradient(transparent 1dvh,  rgb(67, 68, 74));
+  bottom: 28dvh;
+}
+
 /* h1 в центре и двигающаяся по этому центру немно + span*/
 
 .mainpage_h1 {
   position: absolute;
   text-align: center;
   font-size: 2rem;
-  top: 2.5dvh;
-  right: 12dvw;
+  top: 5dvh;
+  right: 16dvw;
 }
 
 .mainpage_span-h1 {
@@ -41,18 +49,19 @@
 .mainpage_ul {
   position: absolute;
   width: 45dvw;
-  top: 15dvh;
+  top: 24dvh;
   margin-left: 2dvw;
   padding: 1.5dvh;
-  background-color: rgb(255,255,255, 0.5);
+  background-color: rgb(255, 255, 255, 0.5);
   border-radius: 3dvw 3dvw 0 3dvw;
 
 }
 
 .mainpage_li {
   list-style: none;
- 
+
 }
+
 .mainpage_li-small {
   color: black;
   margin-top: 1dvh;
@@ -80,18 +89,19 @@
   height: 33dvh;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  margin-bottom: 1dvh;
+  padding-bottom: 3dvh;
 }
 
 .mainpage_button {
-  width: 3rem;
-  height: 3rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background-color: rgb(110, 184, 141);
   border-radius: 90px;
   border: none;
 }
+
 .mainpage_span {
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: rgb(247, 197, 198);
   font-weight: 900;
   text-shadow: 0 0 2px black;
@@ -154,6 +164,7 @@
 .c {
   position: relative;
 }
+
 .mainpage_droping-d,
 .mainpage_droping-c {
   position: absolute;
