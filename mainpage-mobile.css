@@ -28,7 +28,7 @@
   position: absolute;
   text-align: center;
   font-size: 2rem;
-  top: 6dvh;
+  top: 2.5dvh;
   right: 12dvw;
 }
 
@@ -40,7 +40,7 @@
 /* чекбоксы  */
 .mainpage_ul {
   position: absolute;
-  width: 40dvw;
+  width: 45dvw;
   top: 15dvh;
   margin-left: 2dvw;
   padding: 1.5dvh;
@@ -54,12 +54,12 @@
  
 }
 .mainpage_li-small {
-  color: white;
+  color: black;
   margin-top: 1dvh;
   margin-left: 4dvw;
   font-size: 0.9rem;
   text-align: right;
-  background-color: rgb(110, 184, 141);
+  background-color: rgb(247, 197, 198, 0.8);
   border-radius: 2dvw 2dvw 0 2dvw;
   padding: 0.8dvw;
   margin-right: -2dvw;
@@ -77,10 +77,10 @@
 .mainpage_circles-grid {
   display: grid;
   width: 100dvw;
-  height: 30dvh;
+  height: 33dvh;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  margin-bottom: 20px;
+  margin-bottom: 1dvh;
 }
 
 .mainpage_button {
