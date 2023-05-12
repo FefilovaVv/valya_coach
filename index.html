@@ -7,9 +7,9 @@
     <title>Главная</title>
     <link rel="stylesheet" href="background.css" />
     <link rel="stylesheet" href="nav.css" />
-    <link rel="stylesheet" href="mainpage.css" />
-    <link rel="stylesheet" href="hi.css" />
-    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" media="screen and (width > 500px)" href="mainpage.css" />
+    <link rel="stylesheet" media="screen and (width > 500px)"href="hi.css" />
+    <link rel="stylesheet" media="screen and (width > 500px)" href="footer.css" />
     <link
       rel="stylesheet"
       media="screen and (max-width: 500px)"
@@ -60,7 +60,7 @@
         <div class="mainpage_photo-wrap">
           <img
             class="mainpage_photo"
-            src="mainpage_photo.jpg"
+            src="mainpage_photo.webp"
             alt="Фото в горах"
           />
         </div>
@@ -68,27 +68,28 @@
           Мир, радость, <span class="mainpage_span-h1">жвачка</span>
         </h1>
         <ul class="mainpage_ul">
+    
           <li class="mainpage_li">
-            <label> <input type="checkbox" />Любишь настолки?</label>
+            <input type="checkbox" id="1" />
+            <label for="1">Любишь настолки?</label>
           </li>
           <li class="mainpage_li">
-            <input type="checkbox" name="2" />
+            <input type="checkbox" id="2" />
             <label for="2">Любишь котиков?</label>
           </li>
 
           <li class="mainpage_li">
-            <input type="checkbox" name="3" />
+            <input type="checkbox" id="3" />
             <label for="3">20% усилий несут 80% результата?</label>
           </li>
 
           <li class="mainpage_li">
-            <input type="checkbox" name="4" />
+            <input type="checkbox" id="4" />
             <label for="4">Сначала жизнь - потом работа</label>
           </li>
-          +
           <li class="mainpage_li mainpage_li-small">
             <br />*Нажми на кругляш с <br />
-            твоим кол-ом "да"
+            твоим количеством "да"
           </li>
         </ul>
 

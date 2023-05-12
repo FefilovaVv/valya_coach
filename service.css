@@ -6,7 +6,8 @@
 .service_background-grey {
     position: relative;
     background-color:  rgb(234, 234, 234);
-    width: 80vw;
+    width: 80dvw;
+    height: 100dvh;
     margin: 0 auto;
     min-width: 900px;
     min-height: 700px;

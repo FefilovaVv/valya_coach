@@ -52,47 +52,63 @@
 }
 
 /* 4 строчки после и стиль ссылок */
-.hi_wrap-p{position: relative;
-ащ}
-.hi_p2{position: absolute;
+.hi_wrap-p {
+    position: relative;
+}
+
+.hi_p2 {
+    position: absolute;
     display: inline-block;
     font-size: 1rem;
     width: 200px;
-background-color:  rgb(110, 184, 141);
-padding: 10px;
-border-radius: 30px;
-margin: 0;
+    background-color: rgb(110, 184, 141);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 0;
 }
-.hi_p-a{transform: rotate(-30deg);
+
+.hi_p-a {
+    transform: rotate(-30deg);
     right: -2.5%;
-    bottom: 230px;}
-.hi_p-b{z-index: 1;
+    bottom: 230px;
+}
+
+.hi_p-b {
+    z-index: 1;
     transform: rotate(12deg);
     transform-origin: bottom left;
-right: -0.2%;
-bottom: 82px;}
-.hi_p-c{transform: rotate(-5deg);
-bottom: 74px;}
-.hi_p-d{
+    right: -0.2%;
+    bottom: 82px;
+}
+
+.hi_p-c {
+    transform: rotate(-5deg);
+    bottom: 74px;
+}
+
+.hi_p-d {
     left: 24%;
-bottom: 0;
+    bottom: 0;
 }
 
 
-.hi_a{color: white;
-border-radius: 15px;
-padding: 2px 5px;
-text-decoration: none;}
-.hi_a:hover {background-color: rgb(247, 197, 198);} 
+.hi_a {
+    color: white;
+    border-radius: 15px;
+    padding: 2px 5px;
+    text-decoration: none;
+}
 
-.hi_span{font-size: 1rem;
+.hi_a:hover {
+    background-color: rgb(247, 197, 198);
+}
+
+.hi_span {
+    font-size: 1rem;
     color: rgb(247, 197, 198);
     font-weight: 900;
     /* text-shadow: 0 0 2px black; */
     border: 1px solid black;
     border-radius: 40px;
     padding: 0 6px;
-    }
-
-
-
+}
