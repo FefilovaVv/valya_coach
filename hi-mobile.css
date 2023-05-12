@@ -2,21 +2,19 @@
     border-top: 4px double rgb(173, 173, 173);
     position: relative;
     background-color: rgb(234, 234, 234);
-    width: 80vw;
-    margin: 0 auto;
-    min-width: 450px;
+    width: 100dvw;
     min-height: 600px;
-    max-height: 850px;
+  
 }
 
-/* центровка через флекс */
+/* центровка через флекс  */
 
 .hi_cutehi {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 280px;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 /* двигающаяся при наведении котейка */

@@ -1,10 +1,11 @@
 body{background: repeating-linear-gradient(
-    30deg,
-    #333333,
-    #333333 25px,
-    #3d3d3d 25px,
-    #3d3d3d 50px
-  );
-height: 100vh;
+  30deg,
+  #333333,
+  #333333 25px,
+  #3d3d3d 25px,
+  #3d3d3d 50px
+);
+
+margin: 0px;
 }
 

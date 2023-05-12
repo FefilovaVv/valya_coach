@@ -2,10 +2,7 @@
     position: relative;
     background-color: rgb(136, 136, 136);
     width: 80vw;
-    margin: 0 auto;
-    min-width: 450px;
-    min-height: 50px;
-    max-height: 75px;
+    width: 100dvw;
     border-top: 4px double rgb(77, 76, 76);
 }
 

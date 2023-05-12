@@ -4,15 +4,13 @@
 }
 
 /* белый фон */
-.body{margin: 0;}
+
 
 .mainpage_background-white {
   position: relative;
-  background-color: rgb(53, 47, 47);
+  background-color: rgb(255, 255, 255);
   width: 100dvw;
   height: 100dvh;
-  margin: 0 auto;
- 
  
 }
 
