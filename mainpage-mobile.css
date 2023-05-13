@@ -26,7 +26,7 @@
 
 .mainpage_photo-gradient {position: absolute;
   width: 100vw;
-  height: 45vh;
+  height: 35vh;
   background: linear-gradient(transparent 1dvh,   rgb(136, 136, 136));
   bottom: 0vh;
 }
@@ -37,8 +37,8 @@
   position: absolute;
   text-align: center;
   font-size: 2rem;
-  top: 5vh;
-  right: 16vw;
+  top: 7vh;
+  right: 12vw;
 }
 
 .mainpage_span-h1 {
@@ -50,7 +50,7 @@
 .mainpage_ul {
   position: absolute;
   width: 50vw;
-  top: 15vh;
+  top: 22vh;
   margin-left: 2vw;
   padding: 1.5vh;
   background-color: rgb(255, 255, 255, 0.5);

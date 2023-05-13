@@ -3,7 +3,7 @@
 
 
 .nav{position: absolute;
-margin-left: 10px;
+margin: 5px;
 z-index: 5;} 
 .nav_img {
     height: 40px;
@@ -84,7 +84,7 @@ position: absolute;
     text-decoration: none;
     color: rgb(239, 239, 239);
     text-shadow: 0 0 5px #393939;
-    padding-left: 7px;
+    text-align: center;
     
 }
 
