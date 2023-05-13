@@ -9,8 +9,8 @@
 .mainpage_background-white {
   position: relative;
   background-color:  rgb(136, 136, 136);
-  width: 100dvw;
-  height: 100dvh;
+  width: 100vw;
+  height: 100vh;
 
 }
 
@@ -19,15 +19,15 @@
 }
 
 .mainpage_photo {
-  width: 100dvw;
+  width: 100vw;
 
 }
 
 .mainpage_photo-gradient {position: absolute;
-  width: 100dvw;
-  height: 45dvh;
+  width: 100vw;
+  height: 45vh;
   background: linear-gradient(transparent 1dvh,   rgb(136, 136, 136));
-  bottom: 29dvh;
+  bottom: 29vh;
 }
 
 /* h1 в центре и двигающаяся по этому центру немно + span*/
@@ -36,8 +36,8 @@
   position: absolute;
   text-align: center;
   font-size: 2rem;
-  top: 5dvh;
-  right: 16dvw;
+  top: 5vh;
+  right: 16vw;
 }
 
 .mainpage_span-h1 {
@@ -48,12 +48,12 @@
 /* чекбоксы  */
 .mainpage_ul {
   position: absolute;
-  width: 45dvw;
-  top: 24dvh;
-  margin-left: 2dvw;
-  padding: 1.5dvh;
+  width: 45vw;
+  top: 24vh;
+  margin-left: 2vw;
+  padding: 1.5vh;
   background-color: rgb(255, 255, 255, 0.5);
-  border-radius: 3dvw 3dvw 0 3dvw;
+  border-radius: 3vw 3vw 0 3vw;
 
 }
 
@@ -64,15 +64,15 @@
 
 .mainpage_li-small {
   color: black;
-  margin-top: 1dvh;
-  margin-left: 4dvw;
+  margin-top: 1vh;
+  margin-left: 4vw;
   font-size: 0.9rem;
   text-align: right;
   background-color: rgb(247, 197, 198, 0.8);
-  border-radius: 2dvw 2dvw 0 2dvw;
-  padding: 0.8dvw;
-  margin-right: -2dvw;
-  margin-bottom: -2dvw;
+  border-radius: 2vw 2vw 0 2vw;
+  padding: 0.8vw;
+  margin-right: -2vw;
+  margin-bottom: -2vw;
 }
 
 /* зеленые шарики */
@@ -85,11 +85,11 @@
 
 .mainpage_circles-grid {
   display: grid;
-  width: 100dvw;
-  height: 33dvh;
+  width: 100vw;
+  height: 33vh;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  padding-bottom: 10dvh;
+  padding-bottom: 10vh;
 }
 
 .mainpage_button {

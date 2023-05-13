@@ -2,7 +2,7 @@
     border-top: 4px double rgb(173, 173, 173);
     position: relative;
     background-color: rgb(234, 234, 234);
-    width: 100dvw;
+    width: 100vw;
     min-height: 780px;
   
 }
@@ -24,13 +24,13 @@
 }
 
 .hi_cutehi-gif {
-    width: 40dvw;
+    width: 40vw;
 }
 
 .hi_cutehi-webp {
     display: none;
     position: absolute;
-    width: 40dvw;
+    width: 40vw;
     left: 0;
     top: 0;
     background-color: rgb(234, 234, 234);
@@ -43,7 +43,7 @@
 /* текст */
 .hi_p {
     display: inline-block;
-    width: 50dvw;
+    width: 50vw;
     margin: 30px 0 0 10px;
     font-size: 1.2rem;
     
@@ -68,7 +68,7 @@
 .hi_p-a {
     transform: rotate(30deg);
     left: 2.5%;
-    bottom: 49.2dvh;
+    bottom: 49.2vh;
 }
 
 .hi_p-b {
@@ -76,12 +76,12 @@
     transform: rotate(-12deg);
     transform-origin: bottom left;
     left: 8%;
-    bottom: 20dvh;
+    bottom: 20vh;
 }
 
 .hi_p-c {
     transform: rotate(5deg);
-    bottom: 21dvh;
+    bottom: 21vh;
     right: 3%;
 }
 
