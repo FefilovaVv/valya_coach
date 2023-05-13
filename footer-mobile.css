@@ -1,8 +1,8 @@
 .footer_background-grey {
     position: relative;
     background-color: rgb(136, 136, 136);
-    width: 100dvw;
-    height: 10dvh;
+    width: 100vw;
+    height: 10vh;
     border-top: 4px double rgb(77, 76, 76);
 }
 

@@ -7,7 +7,7 @@
     position: relative;
     background-color: rgb(234, 234, 234);
     width: 100vw;
-    min-height:  1140px;
+    min-height:  990px;
     overflow: auto;
     border-top: 4px double rgb(77, 76, 76);
 } 
