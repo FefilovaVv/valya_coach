@@ -1,0 +1,51 @@
+* {
+    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+}
+
+
+.aboutme2_background-grey {
+    background-color: rgb(234, 234, 234);
+    width: 100vw;
+    min-height: 740px;
+    overflow: auto;
+} 
+
+/* Заголовок */
+.aboutme2_h2{color:  black;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+margin: auto;
+background-color:rgb(247, 197, 198);
+border-radius: 90px;
+margin:  10vh 0 4vh 8vw;
+}
+
+
+
+/* Общее */
+.aboutme2_section{display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3vw;}
+.aboutme2_img{width: 20vw;
+    background-color: rgb(110, 184, 141);
+    border-radius: 90px;
+    padding: 10px;}
+.aboutme2_ul{display: inline-block;
+    width: 400px;}
+
+.aboutme2_li {list-style: disc;
+    list-style-image: url('cat-dot.png');
+}
+
+.aboutme2_a{
+    color:   rgb(33, 81, 53)}
+
+/* исключительное */
+
+
+
+
+

@@ -1,0 +1,47 @@
+* {
+    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+}
+
+
+.life_background-grey {
+    position: relative;
+    background-color: rgb(234, 234, 234);
+    width: 100vw;
+    min-height:  1140px;
+    overflow: auto;
+    border-top: 4px double rgb(77, 76, 76);
+} 
+
+
+.life_h2{color: rgb(253,253,253);
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    padding-top: 20px;
+margin: auto;
+background-color:rgb(110, 184, 141);
+border-radius: 90px;
+margin:  10vh 0 4vh 35vw;
+}
+
+/* секции */
+.life_wrap-flex{display: flex;
+flex-direction: column;
+align-items: center;}
+
+    .life_section{ display: inline-block;
+        width: 80wh;
+        background-color: rgb(110, 184, 141);
+        padding: 5px 0px 12px 5vw;
+        border-radius: 10vw;
+        margin: 15px 2vw;
+    }
+    .life_h3{display: inline-block;
+        margin: 10px 0px 5px 5px;
+    padding: 5px 10px;
+background-color: rgb(247, 197, 198);
+border-radius: 20px;}
+
+    .life_p{margin: 0;
+        padding: 0 1vw 1vw 0vw;
+    }
