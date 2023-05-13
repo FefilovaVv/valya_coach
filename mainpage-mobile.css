@@ -14,8 +14,9 @@
 
 }
 
-.mainpage_photo-wrap {
+.mainpage_photo-wrap {position: relative;
   text-align: right;
+  max-height: 704px;
 }
 
 .mainpage_photo {
@@ -27,7 +28,7 @@
   width: 100vw;
   height: 45vh;
   background: linear-gradient(transparent 1dvh,   rgb(136, 136, 136));
-  bottom: 28vh;
+  bottom: 0vh;
 }
 
 /* h1 в центре и двигающаяся по этому центру немно + span*/
@@ -48,8 +49,8 @@
 /* чекбоксы  */
 .mainpage_ul {
   position: absolute;
-  width: 45vw;
-  top: 22vh;
+  width: 50vw;
+  top: 15vh;
   margin-left: 2vw;
   padding: 1.5vh;
   background-color: rgb(255, 255, 255, 0.5);

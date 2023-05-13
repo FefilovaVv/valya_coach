@@ -11,6 +11,7 @@
     min-width: 900px;
     min-height: 700px;
     max-height: 950px;
+    border-top: 4px double rgb(77, 76, 76);
 } 
 
 /* Заголовок */
@@ -23,6 +24,7 @@ margin: auto;
 background-color:rgb(247, 197, 198);;
 border-radius: 90px;
 border: 60px solid  rgb(234, 234, 234);
+
 }
 
 
