@@ -154,6 +154,8 @@
 
 /* стиль выпадающего и ссылка на тг*/
 .mainpage_droping-p {
+  position: absolute;
+  z-index: 1;
   background-color: rgb(110, 184, 141);
   padding: 0.5rem;
   border-radius: 10px;
@@ -161,16 +163,23 @@
   width: 200px;
 }
 
-.d,
-.c {
+.circle {
   position: relative;
 }
 
-.mainpage_droping-d,
+.mainpage_droping-d
+{
+  left: 10px;
+  top: -106px;
+}
 .mainpage_droping-c {
-  position: absolute;
-  left: 64px;
-  top: -40px;
+  left: -185px;
+  top: -106px;
+}
+
+.mainpage_droping-e {
+  left: -180px;
+  top: 54px;
 }
 
 .mainpage_link {

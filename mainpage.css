@@ -93,6 +93,7 @@
   
   .mainpage_button:hover {
     background-color: rgb(247, 197, 198);
+    cursor: pointer;
   }
   
   .a {

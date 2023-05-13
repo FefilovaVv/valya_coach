@@ -6,12 +6,9 @@
 .service_background-grey {
     position: relative;
     background-color:  rgb(234, 234, 234);
-    width: 80dvw;
-    height: 100dvh;
-    margin: 0 auto;
-    min-width: 900px;
-    min-height:1010px;
-    max-height: 1150px;
+   width: 100vw;
+  height: 1300px;
+
 } 
 
 .service_h2{color: rgb(0, 0, 0);
@@ -32,18 +29,19 @@ border: 20px solid  rgb(234, 234, 234);
     align-items: center;}
     
         .service_section{ display: inline-block;
-            width: 550px;
+            width: 320px;
             background-color: rgb(110, 184, 141);
             padding: 5px 0px 12px 20px;
             border-radius: 40px;
             margin: 15px 0;
         }
         .service_h3{display: inline-block;
-            margin: 10px 0px 5px 30px;
+            margin: 10px 0px 5px 10px;
         padding: 5px 10px;
     background-color: rgb(247, 197, 198);
-    border-radius: 20px;}
+    border-radius: 20px;
+width: 250px;}
     
         .service_p{margin: 0;
-            padding: 0 10px 7px 20px;
+            padding: 0 10px 7px 10px;
         }

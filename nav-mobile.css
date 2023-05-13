@@ -21,7 +21,7 @@ position: absolute;
     height: 50px;
     background-color: rgb(108, 193, 143);
     border-radius: 0 30px 30px 0;
-    width: 325px;
+    width: 300px;
 }
 
 .nav_a {
@@ -30,7 +30,7 @@ position: absolute;
     background-color: rgb(108, 193, 143);
     padding: 0.6rem;
     border-radius: 20px;
-    margin: 0 0.5rem;
+    margin: 0 0.3rem;
     /* текст */
     text-decoration: none;
     color: rgb(239, 239, 239);
@@ -82,7 +82,8 @@ position: absolute;
     text-decoration: none;
     color: rgb(239, 239, 239);
     text-shadow: 0 0 5px #393939;
-    width: 75px;}
+    width: 65px;
+padding-left: 9px;}
 .nav_a-2 {
     /* только текст */
     text-decoration: none;
